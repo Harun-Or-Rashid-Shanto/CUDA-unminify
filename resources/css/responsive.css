@@ -1,0 +1,128 @@
+@media screen and (max-width:1200px){
+    .row{
+        width: 90%;
+    }
+    .hero-text-box{
+        margin: 0 0.5rem;
+        width: 90%;
+    }
+    .team-section .span_1_of_4{
+        width: 49.2%;
+    }
+    .team-section .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    .client-img,
+    .client-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:1024px){
+   html{
+       font-size: 57.5%;
+   }
+    
+}
+@media screen and (max-width:980px){
+    header{
+        height: 65vh;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    .main-nav{
+        display: none;
+    }
+    .mobile-menu .fas{
+        display: block;
+    }
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    .testimonial-section .span_1_of_2:nth-child(3),
+    .testimonial-section .span_1_of_2:nth-child(4){
+        margin-top: 2.5rem;
+    }
+    .contact-section form{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.4rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    .little-description{
+        width: 100%;
+    }
+    .portfolio-filter button{
+        padding: .7rem 1.3rem;
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:767px){
+   header{
+    height: 55vh;
+   }
+    html{
+        font-size: 57.5%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:575px){
+    header{
+        height: 60vh;
+    }
+    .overlay .overlay-content a{
+        font-size: 3.5rem;
+    }
+    .span_1_of_4,
+    .team-section .span_1_of_4 {
+        width: 100%;
+        float: none;
+        margin-left:0 ;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    .testimonial-section .span_1_of_2,
+    .portfolio-section .span_1_of_2{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    .portfolio-filter button{
+        padding: .6rem 1.1rem;
+        font-size: 1.3rem;
+        margin: 0 0.2rem;
+    }
+    .contact-section .row{
+        width: 100%;
+    }
+}
+@media screen and (max-width:375px){
+    header{
+        height: 75vh;
+    }
+    .social-icons ul li{
+        margin: 0 0.3rem;
+    }
+    .social-icons ul li a:link i::before{
+        width: 1.7rem;
+        height: 1.7rem;
+        padding: .8rem;
+        font-size: 1.7rem;
+    }
+}
